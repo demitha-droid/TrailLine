@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TrailLine</string>
+
+    <!-- Navigation -->
+    <string name="nav_track">Track</string>
+    <string name="nav_routes">Routes</string>
+    <string name="nav_offline">Offline &amp; Tools</string>
+
+    <!-- Status Badges -->
+    <string name="status_online">Online</string>
+    <string name="status_offline_auto">No Signal • Offline Vault</string>
+    <string name="status_offline_manual">Offline Mode Active</string>
+    <string name="status_recording_local">Saving locally to device</string>
+    <string name="status_gps_acquiring">Acquiring GPS fix…</string>
+    <string name="status_gps_locked">GPS Locked</string>
+    <string name="status_permission_needed">Location access needed</string>
+
+    <!-- Actions -->
+    <string name="action_start_tracking">Start Track</string>
+    <string name="action_pause_tracking">Pause</string>
+    <string name="action_resume_tracking">Resume</string>
+    <string name="action_finish_route">Finish &amp; Save</string>
+    <string name="action_drop_waypoint">Pin Waypoint</string>
+    <string name="action_export_kml">Export KML (Google Maps)</string>
+    <string name="action_export_gpx">Export GPX</string>
+    <string name="action_share_kml">Share KML</string>
+    <string name="action_open_google_maps">Open in Google Maps</string>
+    <string name="action_import_route">Import KML / GPX</string>
+    <string name="action_grant_location">Enable GPS Access</string>
+    <string name="action_google_my_maps_guide">How to import into Google Maps</string>
+    <string name="action_open_my_maps">Open Google My Maps</string>
+    <string name="action_analyze_route">Analyze Route</string>
+
+    <!-- Labels -->
+    <string name="label_distance">Distance</string>
+    <string name="label_duration">Duration</string>
+    <string name="label_elevation_gain">Elev. Gain</string>
+    <string name="label_pace">Avg Speed</string>
+    <string name="label_altitude">Altitude</string>
+    <string name="label_accuracy">GPS Accuracy</string>
+    <string name="label_waypoints">Waypoints</string>
+    <string name="label_track_points">GPS Fixes</string>
+    <string name="label_saved_routes">Saved Paths</string>
+    <string name="label_offline_vault">Offline Tracking Engine</string>
+    <string name="label_google_maps_import">Google Maps Import</string>
+    <string name="label_route_intelligence">Route Intelligence</string>
+
+    <!-- Notices -->
+    <string name="notice_ai_requires_firebase">AI Route Intelligence requires Firebase AI Logic (Gemini). Currently showing sample placeholder responses.</string>
+    <string name="notice_maps_key_placeholder">Google Maps tile key not configured. Using built-in Offline Topographic Vector Map. Add MAPS_API_KEY in AI Studio Secrets for live satellite and terrain tiles.</string>
+    <string name="notice_offline_guaranteed">All GPS fixes are written directly to local SQLite storage in real time so you never lose your path in zero-signal areas.</string>
+    <string name="empty_routes_title">No Saved Routes Yet</string>
+    <string name="empty_routes_subtitle">Start recording a live GPS path or import a KML/GPX file to inspect, archive offline, and visualize in Google Maps.</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "TrailLine",
+  "description": "Offline-first GPS route tracker with Google Maps visualization, KML/GPX export for Google My Maps import, Firestore cloud sync, and Gemini high-thinking route intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
